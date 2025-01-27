@@ -35,7 +35,7 @@ git init
 ```
 4. Create a README.md file:
 ```
-echo "# Go Program" > README.md
+echo "Tutorial Link: carmine-anderson.github.io/comp423-course-notes/tutorials/go-setup/" > README.md
 git add README.md
 git commit -m "Initial commit with README"
 ```
@@ -97,6 +97,9 @@ git push --set-upstream origin main
     ??? "customizations"
         ```customizations```: This housed important configurations to VS code that you find and use. For this project, we will find VS code extensions that we will need for this project. 
 
+### Reopen Your Project in the Dev Container
+Now that you've added the ```devcontainer.json``` file, you're ready to reopen your project in your dev container! To do this press ```Ctrl+Shift+P``` on Windows, or ```Cmd+Shift+P``` on Mac. Then type in "Dev Containers: Reopen in Container," and select the option prompted.
+
 # Part 3: Making your first Go project
 ## Step 1: Lets Get Go(ing)!
 ??? abstract "The Go Language (Golang)"
@@ -133,7 +136,7 @@ package main
 import "fmt"
 
 func main() {
-    fmt.Println("Hello, COMP423!")
+    fmt.Println("Hello COMP423!")
 }
 ```
 - You should then run the program directly through terminal/bash using the following command:
@@ -142,7 +145,7 @@ go run main.go
 ```
 - Output:
 ```
-Hello, COMP423!
+Hello COMP423!
 ```
 ???+ warning "Warning"
     If your output is incorrect, check spelling errors, importing (package) errors, or indentions.
@@ -190,7 +193,7 @@ git add .
 ```
 - Next, lets commit the changes:
 ```
-git commit -m "First offical Go"
+git commit -m "First official Go"
 ```
 - Push it...
 ```
