@@ -63,7 +63,7 @@ git push --set-upstream origin main
 
 # Part 2: Setting up the actual Development Container/Environment
 ## Step 1: Setting up Configuration for the Go Dev Container.
-1. Open the ```go-program``` directory in VS code and make sure you have the Dev Containers extension on VS code as well.
+1. Open the ```go-setup-proj``` directory in VS code and make sure you have the Dev Containers extension on VS code as well.
 2. Create a ```.devcontainer ``` directory (folder) in the root of your project folder.
 3. Create a ``` devcontainer.json``` file inside the ```.devcontainer``` directory. This file actually holds the configuration for the dev container.
 4. Copy the config file data below and put into your ```devcontainer.json``` file.
@@ -136,7 +136,7 @@ func main() {
     fmt.Println("Hello, COMP423!")
 }
 ```
-- You should then run the program directly through bash using the following command:
+- You should then run the program directly through terminal/bash using the following command:
 ```
 go run main.go
 ```
